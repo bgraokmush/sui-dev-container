@@ -1,0 +1,23 @@
+{
+  "name": "Sui Move Dev Container",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "dbaeumer.vscode-eslint",
+        "ms-vscode.vscode-typescript-next",
+        "esbenp.prettier-vscode",
+        "burkeholland.simple-react-snippets",
+        "damirka.move-syntax",
+        "move.move-analyzer",
+        "movebit.sui-move-analyzer",
+        "mysten.move",
+        "mysten.move-trace-debug",
+        "mysten.prettier-move"
+      ]
+    }
+  },
+  "forwardPorts": [3000]
+}

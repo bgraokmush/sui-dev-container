@@ -1,0 +1,26 @@
+FROM ubuntu:22.04
+
+# Gerekli araçları yükle
+RUN apt-get update && apt-get install -y \
+    git \
+    curl \
+    unzip \
+    ca-certificates \
+    build-essential \
+    libssl-dev \
+    pkg-config \
+    libclang-dev \
+    libpq-dev \
+    && rm -rf /var/lib/apt/lists/*
+
+# Rust kurulumu
+RUN curl https://sh.rustup.rs -sSf | bash -s -- -y
+ENV PATH="/root/.cargo/bin:${PATH}"
+
+# Sui kaynak koddan kurulum (mainnet veya testnet farkı sana bağlı)
+RUN cargo install --locked --git https://github.com/MystenLabs/sui.git --branch testnet sui --features tracing
+
+RUN rustup update stable
+
+# Sui CLI'yi PATH'e ekle
+ENV PATH="/root/.cargo/bin:${PATH}"
