@@ -2,9 +2,6 @@
 
 <br />
 <div align="center">
-  <a href="https://github.com/bgraokmush/sui-dev-container">
-    <img src="logo.png" alt="Logo" width="100" height="100">
-  </a>
   <h3 align="center">Sui Development Environment</h3>
     
   <p align="center">
@@ -96,9 +93,9 @@ Distributed under the MIT License. See `LICENSE.md` for more information.
 
 ## ✉️ Contact
 
-For questions or suggestions, feel free to reach out via [https://x.com/bgraokmush](my X account).
+If you have any questions or suggestions, feel free to reach out to me through [my X account](https://x.com/bgraokmush).
 
-Project Link: [https://github.com/your-username/sui-chess](https://github.com/your-username/sui-chess)
+Project Link: [sui dev container](https://github.com/bgraokmush/sui-dev-container)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
