@@ -67,7 +67,8 @@ _For detailed examples and explanations, please refer to the Sui documentation._
 
 - [x] Set up development container
 - [x] Install Sui CLI and Rust toolchain
-- [ ] Add node.js and npm support
+- [x] Add node.js and npm support
+- [ ] Create boilerplate Sui Move project
 
 See the [open issues](https://github.com/your-username/sui-chess/issues) for a full list of proposed features (and known issues).
 
